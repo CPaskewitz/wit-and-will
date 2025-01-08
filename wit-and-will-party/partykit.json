@@ -1,0 +1,10 @@
+{
+  "$schema": "https://www.partykit.io/schema.json",
+  "name": "wit-and-will-party",
+  "main": "src/server.ts",
+  "compatibilityDate": "2025-01-08",
+  "serve": {
+    "path": "public",
+    "build": "src/client.ts"
+  }
+}
